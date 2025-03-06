@@ -4,6 +4,7 @@
 **Be Cured** is an AI-powered healthcare solution for the early diagnosis of **diabetic retinopathy** and **kidney disease**. The system leverages **deep learning models** for medical imaging analysis and **clinical data processing**, enabling early detection and risk assessment.
 
 ---
+google drive - ""
 
 ## Installation & Setup
 
