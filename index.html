@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Dr. Suresh Eye Clininc & Opticals</title>
+
+    <link rel="shortcut icon" href="static/images/fav.jpg">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/fontawsom-all.min.css">
+    <link rel="stylesheet" href="static/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+</head>
+
+<body>
+
+    <!-- ################# Header Starts Here#######################--->
+
+
+
+<body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="number"],
+        input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Medical Form</h2>
+        <form action="/submit" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id">
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age">
+            </div>
+            <div class="form-group">
+                <label for="bp">Blood Pressure:</label>
+                <input type="text" id="bp" name="bp">
+            </div>
+            <div class="form-group">
+                <label for="sg">Specific Gravity:</label>
+                <input type="text" id="sg" name="sg">
+            </div>
+            <div class="form-group">
+                <label for="al">Albumin:</label>
+                <input type="text" id="al" name="al">
+            </div>
+            <div class="form-group">
+                <label for="su">Sugar:</label>
+                <input type="text" id="su" name="su">
+            </div>
+            <div class="form-group">
+                <label for="rbc">Red Blood Cells:</label>
+                <input type="text" id="rbc" name="rbc">
+            </div>
+            <div class="form-group">
+                <label for="pc">Pus Cell:</label>
+                <input type="text" id="pc" name="pc">
+            </div>
+            <div class="form-group">
+                <label for="pcc">Pus Cell Clumps:</label>
+                <input type="text" id="pcc" name="pcc">
+            </div>
+            <div class="form-group">
+                <label for="ba">Bacteria:</label>
+                <input type="text" id="ba" name="ba">
+            </div>
+            <div class="form-group">
+                <label for="bgr">Blood Glucose Random:</label>
+                <input type="text" id="bgr" name="bgr">
+            </div>
+            <div class="form-group">
+                <label for="bu">Blood Urea:</label>
+                <input type="text" id="bu" name="bu">
+            </div>
+            <div class="form-group">
+                <label for="sc">Serum Creatinine:</label>
+                <input type="text" id="sc" name="sc">
+            </div>
+            <div class="form-group">
+                <label for="sod">Sodium:</label>
+                <input type="text" id="sod" name="sod">
+            </div>
+            <div class="form-group">
+                <label for="pot">Potassium:</label>
+                <input type="text" id="pot" name="pot">
+            </div>
+            <div class="form-group">
+                <label for="hemo">Haemoglobin:</label>
+                <input type="text" id="hemo" name="hemo">
+            </div>
+            <div class="form-group">
+                <label for="pcv">Packed Cell Volume:</label>
+                <input type="text" id="pcv" name="pcv">
+            </div>
+            <div class="form-group">
+                <label for="wc">White Blood Cell Count:</label>
+                <input type="text" id="wc" name="wc">
+            </div>
+            <div class="form-group">
+                <label for="rc">Red Blood Cell Count:</label>
+                <input type="text" id="rc" name="rc">
+            </div>
+            <div class="form-group">
+                <label for="htn">Hypertension (yes/no):</label>
+                <input type="text" id="htn" name="htn">
+            </div>
+            <div class="form-group">
+                <label for="dm">Diabetes Mellitus (yes/no):</label>
+                <input type="text" id="dm" name="dm">
+            </div>
+            <div class="form-group">
+                <label for="cad">Coronary Artery Disease (yes/no):</label>
+                <input type="text" id="cad" name="cad">
+            </div>
+            <div class="form-group">
+                <label for="appet">Appetite (normal/poor):</label>
+                <input type="text" id="appet" name="appet">
+            </div>
+            <div class="form-group">
+                <label for="pe">Pedal Edema (present/absent):</label>
+                <input type="text" id="pe" name="pe">
+            </div>
+            <div class="form-group">
+                <label for="ane">Anemia (yes/no):</label>
+                <input type="text" id="ane" name="ane">
+            </div>
+            <div class="form-group">
+                <label for="image">Upload Image:</label>
+                <input type="file" id="image" name="image">
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+
+
+    <!-- ################# Key Features Starts Here#######################--->
+
+
+
+    <!-- ################# Doctors Message Starts Here#######################--->
+
+
+
+
+    <!-- ################# Our Team Starts Here#######################--->
+
+
+
+
+    <!-- ################# Our Blog Starts Here#######################--->
+
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+<script src="assets/js/script.js"></script>
+
+
+</html>
