@@ -32,7 +32,7 @@ prediction = ""
 import tensorflow as tf
 
 import seaborn as sns
-from hj import *
+
 UPLOAD_FOLDER = 'uploads'
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
